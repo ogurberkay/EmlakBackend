@@ -19,8 +19,29 @@ public class HomeController : Controller
     {
         return View();
     }
+    
+    
 
+    [HttpGet("Privacy")]
     public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    [HttpGet("ContactUs")]
+    public IActionResult ContactUs()
+    {
+        return View();
+    }
+    
+    [HttpGet("List")]
+    public IActionResult List()
+    {
+        return View();
+    }
+    
+    [HttpGet("404")]
+    public IActionResult NotFound()
     {
         return View();
     }
