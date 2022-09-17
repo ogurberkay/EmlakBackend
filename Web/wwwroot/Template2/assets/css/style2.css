@@ -604,8 +604,8 @@ ul {
     padding-right: 15px; }
 
 .btn-yellow {
-  background: var(--main-color-one);
-  color: #fff; }
+  background: var(--main-color-one) !important;
+  color: #fff !important; }
   .btn-yellow:hover, .btn-yellow:focus {
     color: #fff; }
 
@@ -2804,7 +2804,7 @@ ul {
           margin-right: 0; }
     .single-feature .details .contact-list {
       margin: 0;
-      padding: 0;
+      padding: 26.5px 10px 14px 10px  !important;
       position: absolute;
       width: 100%;
       left: 0;
