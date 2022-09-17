@@ -12369,7 +12369,7 @@ section.visited-cities {
 .btn-yellow:hover,
 .btn-yellow:focus {
   background: #fff;
-  border: 1px solid #687389;
+  border: unset;
   color: #687389;
 }
 
