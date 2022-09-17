@@ -52,6 +52,12 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpGet("ContactUsNew")]
+    public IActionResult ContactUsNew()
+    {
+        return View();
+    }
+    
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
