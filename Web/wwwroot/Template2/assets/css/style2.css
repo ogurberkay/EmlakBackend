@@ -118,19 +118,19 @@ p {
   margin-bottom: 10px; }
 
 a {
-  color: inherit;
-  text-decoration: none;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s; }
+  color: inherit!important;
+  text-decoration: none!important;
+  -webkit-transition: 0.4s!important;
+  -o-transition: 0.4s!important;
+  transition: 0.4s!important; }
 
 a,
 a:hover,
 a:focus,
 a:active {
-  text-decoration: none;
-  outline: none;
-  color: inherit; }
+  text-decoration: none!important;
+  outline: none!important;
+  color: inherit!important; }
 
 a:hover {
   color: var(--main-color-one); }
@@ -551,8 +551,8 @@ ul {
     font-size: 20px; } }
 
 @media (min-width: 1600px) {
-  .container {
-    max-width: 1360px; } }
+  .container-contact {
+    max-width: 1360px!important; } }
 
 /*---------------------------------------
     ## Button
